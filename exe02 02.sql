@@ -31,6 +31,7 @@ INSERT INTO tb_pizzas (nome, preco, descricao, quant_vendidas, categoria_id) VAL
 INSERT INTO tb_pizzas (nome, preco, descricao, quant_vendidas, categoria_id) VALUES ("Frango com Cream Cheese", 125.00, "Queijo, frango desfiado, Cream Cheese, oregano e parmesão ralado.", 3, 4);
 INSERT INTO tb_pizzas (nome, preco, descricao, quant_vendidas, categoria_id) VALUES ("Veggie", 100.00, "Queijo, champignon, azeitona preta, cebola, oregano e pimentão verde", 687, 4);
 INSERT INTO tb_pizzas (nome, preco, descricao, quant_vendidas, categoria_id) VALUES ("Marguerita", 100.00, "Queijo, tomate, oregano e manjericão.", 125, 5);
+
 ALTER TABLE tb_pizzas ADD categoria_id bigint;
 
 ALTER TABLE tb_pizzas ADD CONSTRAINT fk_pizza_categoria 
